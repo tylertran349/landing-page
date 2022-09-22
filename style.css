@@ -1,0 +1,267 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+header-and-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    font-size: 24px;
+    color: white;
+}
+
+.header-and-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkred;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.sign-up-button {
+    padding: 10px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    gap: 32px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    width: 500px;
+    height: auto;
+}
+
+.welcome-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: darkred;
+    text-align: center;
+}
+
+.welcome-subtext {
+    font-size: 18px;
+    color: rgb(180, 136, 24);
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.sign-up-button {
+    border: 0;
+    border-radius: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: darkred;
+    color: white;
+    font-weight: 900;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    gap: 32px;
+    padding: 32px;
+}
+
+.top-5-players {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-1 img {
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    border: 3px solid rgb(180, 136, 24);
+    border-radius: 12px;
+}
+
+.section-2 img {
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    border: 3px solid rgb(180, 136, 24);
+    border-radius: 12px;
+}
+
+.section-3 img {
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    border: 3px solid rgb(180, 136, 24);
+    border-radius: 12px;
+}
+
+.section-4 img {
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    border: 3px solid rgb(180, 136, 24);
+    border-radius: 12px;
+}
+
+.section-5 img {
+    height: 200px;
+    width: 190px;
+    object-fit: cover;
+    border: 3px solid rgb(180, 136, 24);
+    border-radius: 12px;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.image-subtext {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.top-5-players-title {
+    font-size: 36px;
+    color: white;
+    font-weight: 800;
+}
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.quote-and-source {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(180, 136, 24)
+}
+
+.quote-source {
+    align-self: flex-end;
+    color: darkred;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    background-color: rgb(180, 136, 24);
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 12px;
+}
+
+.newsletter-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-subtext {
+    color: white;
+    font-size: 18px;
+}
+
+.newsletter-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sign-up {
+    border: 0;
+    border-radius: 8px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: darkred;
+    color: white;
+    font-weight: 900;
+}
+
+.footer {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    text-align: center;
+    color: darkred;
+}
