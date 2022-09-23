@@ -65,7 +65,7 @@ a {
 
 .welcome-text {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: bold;
     color: darkred;
     text-align: center;
 }
@@ -91,7 +91,7 @@ img {
     padding-bottom: 8px;
     background-color: darkred;
     color: white;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .second-section {
@@ -166,7 +166,7 @@ img {
 .top-5-players-title {
     font-size: 36px;
     color: white;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .quote-section {
@@ -198,7 +198,7 @@ img {
 .quote-source {
     align-self: flex-end;
     color: darkred;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 18px;
 }
 
@@ -227,7 +227,7 @@ img {
 .newsletter-title {
     color: white;
     font-size: 24px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .newsletter-subtext {
@@ -250,7 +250,7 @@ img {
     padding-bottom: 8px;
     background-color: darkred;
     color: white;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .footer {
