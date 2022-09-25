@@ -91,7 +91,7 @@ img {
     padding-bottom: 8px;
     background-color: darkred;
     color: white;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .second-section {
@@ -241,7 +241,7 @@ img {
     gap: 4px;
 }
 
-.sign-up {
+.sign-up, .sign-up-button {
     border: 0;
     border-radius: 8px;
     padding-left: 45px;
@@ -250,7 +250,7 @@ img {
     padding-bottom: 8px;
     background-color: darkred;
     color: white;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .footer {
