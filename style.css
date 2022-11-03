@@ -276,3 +276,15 @@ button:hover {
     transition: transform .2s;
     transform: scale(1.1);
 }
+
+/* GitHub footer icon styling */
+.fa-github {
+    color: darkred;
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+  
+/* GitHub footer icon animation on hover */
+.fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
