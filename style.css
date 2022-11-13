@@ -136,8 +136,8 @@ body {
 }
 
 #section-1 img, #section-2 img, #section-3 img, #section-4 img, #section-5 img {
-    height: 90%;
-    width: 80%;
+    height: 88%;
+    width: 78%;
     border: 0.2rem solid rgb(180, 136, 24);
     border-radius: 0.75rem;
     object-fit: cover;
