@@ -94,7 +94,7 @@ body {
 }
 
 #right-side img {
-    width: 65%;
+    width: 60%;
     aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 0.75rem;
