@@ -80,6 +80,7 @@ body {
     background-color: darkred;
     color: white;
     font-weight: bold;
+    font-family: inherit;
 }
 
 #sign-up-button:hover {
